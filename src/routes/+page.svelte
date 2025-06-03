@@ -18,9 +18,19 @@
 <style>
 	main {
 		display: flex;
-		justify-content: space-evenly;
+		margin-top:10rem;
 		gap: 5rem;
 		padding: 8rem 2rem;
+		min-height: 100dvh;
+		@media (width < 768px) {
+			flex-direction: column;
+		}
+	}
+	.projects {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		gap: 1rem;
 		min-height: 100dvh;
 	}
 </style>
