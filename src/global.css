@@ -6,6 +6,7 @@
     --fallback-bg: #0f0f0f;
     --elipse-primary: rgb(243, 114, 97);
     --elipse-secondary: #842CF2;
+    --golden-color: #ffb829;
 }
 
 * {
@@ -66,4 +67,21 @@ body {
         z-index: -1;
         overflow: hidden;
     }
+}
+
+
+
+.link {
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+
+.link[aria-current='page'] {
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    text-decoration-color: var(--golden-color);
 }
