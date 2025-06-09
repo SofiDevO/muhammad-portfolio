@@ -14,16 +14,12 @@
 	<section class="projects">
 		<Router {url}>
 			<nav class="header__nav">
-				<Link class="link" to="/">Home</Link>
-				<Link class="link" to="/about">About</Link>
+				<Link class="link" to="/">About</Link>
 				<Link class="link" to="/portfolio">Portfolio</Link>
 				<Link class="link" to="/social">My Socials</Link>
 			</nav>
 			<div>
 				<Route path="/">
-					<Home />
-				</Route>
-				<Route path="/about">
 					<About />
 				</Route>
 				<Route path="/portfolio">
