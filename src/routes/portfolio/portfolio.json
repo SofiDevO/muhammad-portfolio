@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Weather App",
+        "description": "A simple weather application that provides real-time weather updates for any location.",
+        "repo": "https://github.com/JohnDoe/WeatherApp",
+        "project": "https://weather-app.example.com/",
+        "image": "https://picsum.photos/200/200",
+        "tags": ["React", "API", "CSS", "JavaScript"]
+    },
+    {
+        "title": "Task Manager",
+        "description": "A task management tool to organize your daily activities efficiently.",
+        "repo": "https://github.com/JohnDoe/TaskManager",
+        "project": "https://task-manager.example.com/",
+        "image": "https://picsum.photos/200/340",
+        "tags": ["Vue", "Firebase", "CSS", "JavaScript"]
+    },
+    {
+        "title": "E-Commerce Platform",
+        "description": "An e-commerce platform for buying and selling products online.",
+        "repo": "https://github.com/JohnDoe/ECommercePlatform",
+        "project": "https://ecommerce-platform.example.com/",
+        "image": "https://picsum.photos/200/310",
+        "tags": ["Angular", "Node.js", "MongoDB", "CSS"]
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website showcasing projects and skills.",
+        "repo": "https://github.com/JohnDoe/PortfolioWebsite",
+        "project": "https://portfolio-website.example.com/",
+        "image": "https://picsum.photos/200/380",
+        "tags": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+    },
+    {
+        "title": "Chat Application",
+        "description": "A real-time chat application with support for multiple users.",
+        "repo": "https://github.com/JohnDoe/ChatApplication",
+        "project": "https://chat-application.example.com/",
+        "image": "https://picsum.photos/200/300",
+        "tags": ["React", "Socket.io", "Node.js", "CSS"]
+    },
+    {
+        "title": "Blog Platform",
+        "description": "A blogging platform where users can create and share posts.",
+        "repo": "https://github.com/JohnDoe/BlogPlatform",
+        "project": "https://blog-platform.example.com/",
+        "image": "https://picsum.photos/200/980",
+        "tags": ["Django", "Python", "HTML", "CSS"]
+    }
+]

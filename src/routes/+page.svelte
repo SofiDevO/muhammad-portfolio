@@ -32,15 +32,15 @@
 		</Router>
 	</section>
 </main>
+
 <style>
 	main {
 		display: flex;
 		gap: 5rem;
-		padding: 6rem 2rem;
 		min-height: 100dvh;
 		width: 100%;
-		max-width: 1100px;
-		margin: 10rem auto;
+		max-width: 1350px;
+		margin: 8rem auto;
 		@media (width < 768px) {
 			flex-direction: column;
 		}
@@ -52,12 +52,9 @@
 		gap: 1rem;
 		min-height: 100dvh;
 	}
-	.header__nav{
+	.header__nav {
 		display: flex;
 		gap: 1.5rem;
 		margin-bottom: 2.4rem;
-
 	}
-
-
 </style>

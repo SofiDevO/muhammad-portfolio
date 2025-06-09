@@ -7,6 +7,7 @@
     --elipse-primary: rgb(243, 114, 97);
     --elipse-secondary: #842CF2;
     --golden-color: #ffb829;
+    --title-color: #cd8902;
 }
 
 * {
@@ -31,7 +32,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: var(--color-text);
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
     padding: 2rem;
     display: flex;
     flex-direction: column;
