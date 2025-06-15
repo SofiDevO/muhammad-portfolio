@@ -1,0 +1,44 @@
+[
+	{
+		"title": "Email",
+        "icon": "/images/social-icons/icon-7.png",
+		"url": "#",
+        "tag": "maqsam1155@gmail.com"
+	},
+	{
+		"title": "Facebook",
+        "icon": "/images/social-icons/icon-6.png",
+		"url": "#",
+        "tag": "@m_aqsam"
+	},
+	{
+		"title": "GitHub",
+        "icon": "/images/social-icons/icon-5.png",
+		"url": "#",
+        "tag": "@m_aqsam"
+	},
+	{
+		"title": "Figma",
+        "icon": "/images/social-icons/icon-4.png",
+		"url": "#",
+        "tag": "@m_aqsam"
+	},
+	{
+		"title": "Dev-Community",
+        "icon": "/images/social-icons/icon-3.png",
+		"url": "#",
+        "tag": "@m_aqsam"
+	},
+	{
+		"title": "Twitter",
+        "icon": "/images/social-icons/icon-2.png",
+		"url": "#",
+        "tag": "@m_aqsam"
+	},
+	{
+		"title": "Instagram",
+        "icon": "/images/social-icons/icon-1.png",
+		"url": "#",
+        "tag": "@m_aqsam"
+	}
+]

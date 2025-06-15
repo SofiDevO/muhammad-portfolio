@@ -1,0 +1,76 @@
+.social {
+    --card-bg1: #143061;
+    --card-bg2: linear-gradient(180deg, #35A5EE 0%, #1264D6 100%);
+    ;
+    --card-bg3: linear-gradient(180deg, #25262F 0%, #0C0D16 100%);
+    --card-bg4: linear-gradient(180deg, #313030 0%, #121313 100%);
+    --card-bg5: linear-gradient(180deg, #FBFBFC 0%, #DBDBDB 100%);
+    --card-bg6: linear-gradient(180deg, #4EBCFF 0%, #1199ED 100%);
+    ;
+    --card-bg7: radial-gradient(68.43% 68.43% at 7.43% 6%, #3C93E3 24.84%, rgba(60, 147, 227, 0.00) 100%), radial-gradient(126.35% 126.35% at 13.71% 110.29%, #FFDA55 0%, #F03D63 45.35%, #B72DC0 100%);
+
+    ;
+
+    width: 100%;
+    padding: 2rem;
+
+}
+
+.social__grid-container {
+    display: grid;
+    grid-template-areas:
+        'item1 item1 item1 item2 item2'
+        'item1 item1 item1 item2 item2'
+        'item3 item3 item3 item3 item3'
+        'item3 item3 item3 item3 item3'
+        'item4 item4 item4 item5 item5'
+        'item4 item4 item4 item5 item5'
+        'item4 item4 item4 item6 item6'
+        'item4 item4 item4 item6 item6'
+        'item7 item7 item7 item7 item7'
+        'item7 item7 item7 item7 item7';
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.social__item {
+    padding: 13px 10px;
+    border-radius: 15px;
+
+    &:nth-child(1) {
+        grid-area: item1;
+        background: var(--card-bg1);
+    }
+
+    &:nth-child(2) {
+        grid-area: item2;
+        background: var(--card-bg2);
+    }
+
+    &:nth-child(3) {
+        grid-area: item3;
+        background: var(--card-bg3);
+    }
+
+    &:nth-child(4) {
+        grid-area: item4;
+        background: var(--card-bg4);
+    }
+
+    &:nth-child(5) {
+        grid-area: item5;
+        background: var(--card-bg5);
+    }
+
+    &:nth-child(6) {
+        grid-area: item6;
+        background: var(--card-bg6);
+    }
+
+    &:nth-child(7) {
+        grid-area: item7;
+        background: var(--card-bg7);
+        background-blend-mode: hard-light, normal;
+    }
+}

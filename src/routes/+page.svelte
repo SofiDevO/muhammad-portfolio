@@ -1,60 +1,29 @@
-<script>
-	import { Router, Link, Route } from 'svelte-routing';
-	import '../global.css';
-	import Hero from './hero/Hero.svelte';
-	import About from './about/About.svelte';
-	import Home from './home/Home.svelte';
-	import Portfolio from './portfolio/Portfolio.svelte';
-	import SocialLinks from './social-links/SocialLinks.svelte';
-	export let url = '';
-</script>
 
-<main class="main">
-	<Hero />
-	<section class="projects">
-		<Router {url}>
-			<nav class="header__nav">
-				<Link class="link" to="/">About</Link>
-				<Link class="link" to="/portfolio">Portfolio</Link>
-				<Link class="link" to="/social">My Socials</Link>
-			</nav>
-			<div>
-				<Route path="/">
-					<About />
-				</Route>
-				<Route path="/portfolio">
-					<Portfolio />
-				</Route>
-				<Route path="/social">
-					<SocialLinks />
-				</Route>
-			</div>
-		</Router>
-	</section>
-</main>
+
+
+<h2>About me page</h2>
+<p>
+	I'm a passionate web developer with a focus on creating dynamic and responsive user interfaces. My
+	journey in web development has been driven by a love for coding and a desire to build applications
+	that enhance user experiences.
+</p>
+<p>
+	I specialize in JavaScript, HTML, and CSS, and I'm always eager to learn new technologies and
+	improve my skills. When I'm not coding, you can find me exploring the latest trends in web design
+	or contributing to open-source projects.
+</p>
 
 <style>
-	main {
-		display: flex;
-		gap: 5rem;
-		min-height: 100dvh;
-		width: 100%;
-		max-width: 1350px;
-		margin: 8rem auto;
-		@media (width < 768px) {
-			flex-direction: column;
-		}
+	h2 {
+		color: var(--title-color);
+		font-size: 3rem;
+		margin: 1rem 0;
 	}
-	.projects {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		gap: 1rem;
-		min-height: 100dvh;
-	}
-	.header__nav {
-		display: flex;
-		gap: 1.5rem;
-		margin-bottom: 2.4rem;
+
+	p {
+        margin-top: 1rem;
+		color: var(--color-text);
+		font-size: 1.7rem;
+		line-height: 1.5;
 	}
 </style>

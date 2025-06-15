@@ -8,6 +8,7 @@
     --elipse-secondary: #842CF2;
     --golden-color: #ffb829;
     --title-color: #cd8902;
+
 }
 
 * {
@@ -88,4 +89,9 @@ li{
     text-decoration-thickness: 2px;
     text-underline-offset: 10px;
     text-decoration-color: var(--golden-color);
+}
+
+a {
+    color: var(--color-text);
+    text-decoration: none;
 }
